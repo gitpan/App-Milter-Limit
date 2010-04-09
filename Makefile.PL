@@ -19,13 +19,15 @@ my %WriteMakefileArgs = (
                                                },
                        'AUTHOR' => 'Michael Schout <mschout@cpan.org>',
                        'BUILD_REQUIRES' => {
-                                             'Test::More' => '0'
+                                             'Module::Signature' => '0',
+                                             'Test::More' => '0',
+                                             'Socket' => '0'
                                            },
                        'ABSTRACT' => 'Sendmail Milter that limits message rate by sender',
                        'EXE_FILES' => [
                                         'bin/milter-limit'
                                       ],
-                       'VERSION' => '0.50',
+                       'VERSION' => '0.51',
                        'PREREQ_PM' => {
                                         'Getopt::Long' => '0',
                                         'Pod::Usage' => '0',
@@ -37,7 +39,7 @@ my %WriteMakefileArgs = (
                                         'Class::Singleton' => '0',
                                         'POSIX' => '0',
                                         'Sendmail::PMilter' => '0.98',
-                                        'File::Path' => '0',
+                                        'File::Path' => '2.0',
                                         'File::Pid' => '0',
                                         'Config::Tiny' => '0'
                                       },

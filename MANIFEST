@@ -4,6 +4,7 @@ MANIFEST
 META.yml
 Makefile.PL
 README
+SIGNATURE
 bin/milter-limit
 conf/milter-limit.conf
 contrib/freebsd/milter-limit.sh
@@ -17,3 +18,5 @@ lib/App/Milter/Limit/Util.pm
 t/compile.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
+t/signature.t
+weaver.ini

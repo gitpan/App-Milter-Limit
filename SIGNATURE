@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 3fd13fa183f62134f5f96d728f8bc82ee5ad70eb Changes
+SHA1 2567ebef08c659e7f40bee2fbd29f69f00c6c863 LICENSE
+SHA1 339530dcf648b6200d28cb1982caf5a74b8145e4 MANIFEST
+SHA1 7b6d248e0e5e6c1d4367c988cb8972093f1bb3be META.yml
+SHA1 cf4cf382a41c9ad5594a77ccf49fcfe3d3479fbd Makefile.PL
+SHA1 1f2af066160ee4478aef16bf1a0bf61a7cf4828e README
+SHA1 97ba89563676a78d0203ced7db4be014deb5cd57 bin/milter-limit
+SHA1 8ac938d7929d9c66c5444181968d432bb9a635c0 conf/milter-limit.conf
+SHA1 4b3619dfa07bdd98530008adcbcae03107fccaf0 contrib/freebsd/milter-limit.sh
+SHA1 6836cff4a5d7396ae0d386aa93c60ff9886f4576 dist.ini
+SHA1 2702f7fec39e804734d75db2f7643a6a1b5f2c78 lib/App/Milter/Limit.pm
+SHA1 9899316d1ee0dbbe059188d23aee5d27e925fb78 lib/App/Milter/Limit/Config.pm
+SHA1 1707bfc8101cc716311a77b621c9bb089a1f0c77 lib/App/Milter/Limit/Log.pm
+SHA1 4c6206b5dd395929ade23cbe194f9341790cbf81 lib/App/Milter/Limit/PidFile.pm
+SHA1 015db7e50acadef74e81f706a77375a688de04c5 lib/App/Milter/Limit/Plugin.pm
+SHA1 6883ebe5ef1588985a5a0239a6343802ab7c482e lib/App/Milter/Limit/Util.pm
+SHA1 886c83d1c6818c31244b51a323bb52db523881b5 t/compile.t
+SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
+SHA1 946206d2ce9fba0e8fda1d429e01245fb8934622 t/release-pod-syntax.t
+SHA1 46a3b211d86fc7da03762365c626e33fc9d9ad44 t/signature.t
+SHA1 dc5577d84d6015589321fed7ab730d17a80d4410 weaver.ini
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAku/jZsACgkQ+CqvSzp9LOyuPgCdFT+sejKCh7wy0DHYUC0yPh8K
+3EEAnRqLWhhmOyXydYhRGHOLI3H1oK7I
+=RXbN
+-----END PGP SIGNATURE-----

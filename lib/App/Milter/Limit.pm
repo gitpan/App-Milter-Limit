@@ -1,5 +1,7 @@
 package App::Milter::Limit;
-$App::Milter::Limit::VERSION = '0.50';
+BEGIN {
+  $App::Milter::Limit::VERSION = '0.51';
+}
 
 # ABSTRACT: Sendmail Milter that limits message rate by sender
 
@@ -204,7 +206,7 @@ App::Milter::Limit - Sendmail Milter that limits message rate by sender
 
 =head1 VERSION
 
-version 0.50
+version 0.51
 
 =head1 SYNOPSIS
 
@@ -262,6 +264,19 @@ This software is copyright (c) 2010 by Michael Schout.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=head1 SOURCE
+
+You can contribute or fork this project via github:
+
+http://github.com/mschout/milter-limit
+
+ git clone git://github.com/mschout/milter-limit.git
+
+=head1 BUGS
+
+Please report any bugs or feature requests to bug-app-milter-limit@rt.cpan.org or through the web interface at:
+ http://rt.cpan.org/Public/Dist/Display.html?Name=App-Milter-Limit
 
 =cut
 
